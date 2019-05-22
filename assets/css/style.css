@@ -1,0 +1,88 @@
+body{
+    font-family: 'Heebo', sans-serif;
+}
+header{
+    display: block;
+}
+h1{
+    color: white;
+    margin-top: 300px;
+    letter-spacing: 0.15em;
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size: 15px;
+    letter-spacing: 0.25em;
+}
+p{
+    color: white;
+}
+a:hover{
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+span{
+    color: white;
+}
+a{
+    color: white;
+}
+.logo{
+    width: 250px;
+    margin-top: -75px;
+    margin-left: 70px;
+    float: left;
+}
+.navleft{
+    color: white;
+    float: left;
+    list-style-type: none;
+    padding-right: 10px;
+    margin-right: 70px;
+}
+.navright{
+    color: white;
+    float: right;
+    list-style-type: none;
+    padding-right: 10px;
+    margin-right: 70px;
+}
+.buttons{
+    position: relative;
+    top: 50%;
+    margin-top: 5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.buttons:hover{
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+.content{
+    text-align: center;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -300;
+    opacity: 75%;
+  }
